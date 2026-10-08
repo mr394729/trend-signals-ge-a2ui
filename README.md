@@ -4,10 +4,21 @@ This repository is a reference blueprint. It shows how an analytics product can 
 interactive workspace next to the chat, with an agent behind it that analyzes the data, answers questions and
 changes what the workspace shows.
 
+![Trend Signals in Gemini Enterprise: the agent answers in the chat and highlights the whitespace gaps in the workspace in the Canvas side panel](docs/images/ge-whitespace-gaps.png)
+
+*In Gemini Enterprise: the user asks "Where are my biggest whitespace gaps?" The agent answers in the chat, and the
+workspace in the Canvas side panel highlights the five trends it names, with a banner that says what changed.*
+
+| Open the workspace | Brand fit for a buying question | Demand timeline |
+|---|---|---|
+| ![The workspace opens in the Canvas side panel next to the chat](docs/images/ge-open-workspace.png) | ![The agent answers a buying question and switches the workspace to the brand-fit heatmap](docs/images/ge-brand-fit.png) | ![The ridgeline timeline of every demand curve in the Canvas side panel](docs/images/ge-timeline.png) |
+
 The example is fashion trend analytics for a fictional retailer, Cymbal Apparel: an opportunity map of trends against
 assortment coverage, ranked lists, trend drill-downs with demand forecasts, comparison and a shortlist board. The data
 is synthetic. The experience and the way the agent and the workspace talk to each other are the subject of the
 blueprint; a governed data product replaces `catalog.py` when it is used for real.
+
+### The workspace views
 
 | Opportunity map | Agent highlights what it names |
 |---|---|
