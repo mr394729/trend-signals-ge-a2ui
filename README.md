@@ -9,9 +9,13 @@ changes what the workspace shows.
 *In Gemini Enterprise: the user asks "Where are my biggest whitespace gaps?" The agent answers in the chat, and the
 workspace in the Canvas side panel highlights the five trends it names, with a banner that says what changed.*
 
-| Open the workspace | Brand fit for a buying question | Demand timeline |
-|---|---|---|
-| ![The workspace opens in the Canvas side panel next to the chat](docs/images/ge-open-workspace.png) | ![The agent answers a buying question and switches the workspace to the brand-fit heatmap](docs/images/ge-brand-fit.png) | ![The ridgeline timeline of every demand curve in the Canvas side panel](docs/images/ge-timeline.png) |
+| The agent in Gemini Enterprise | Open the workspace |
+|---|---|
+| ![The Trend Signals start page in Gemini Enterprise, with its description and starter prompts](docs/images/ge-agent-start.png) | ![The workspace opens in the Canvas side panel next to the chat](docs/images/ge-open-workspace.png) |
+
+| Brand fit for a buying question | Demand timeline |
+|---|---|
+| ![The agent answers a buying question and switches the workspace to the brand-fit heatmap](docs/images/ge-brand-fit.png) | ![The ridgeline timeline of every demand curve in the Canvas side panel](docs/images/ge-timeline.png) |
 
 The example is fashion trend analytics for a fictional retailer, Cymbal Apparel: an opportunity map of trends against
 assortment coverage, ranked lists, trend drill-downs with demand forecasts, comparison and a shortlist board. The data
