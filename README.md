@@ -54,6 +54,12 @@ blueprint; a governed data product replaces `catalog.py` when it is used for rea
 
 ## How it works
 
+![Trend Signals architecture: the user, the chat and the sandboxed workspace page in the Gemini Enterprise Canvas, and the private Cloud Run agent with its ADK agent, tools, dataset and per-conversation state, calling Gemini on Vertex AI](docs/images/architecture.png)
+
+One turn, in order: the page posts an action with the workspace state (1); Gemini Enterprise sends it to the agent
+over A2A (2); the agent calls Gemini (3) and its tools, which write the new workspace state (4); the reply carries a new
+Canvas surface with that state (5). The sequence below shows the same flow message by message.
+
 ```mermaid
 sequenceDiagram
     participant U as User
